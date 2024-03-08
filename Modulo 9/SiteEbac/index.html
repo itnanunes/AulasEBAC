@@ -1,0 +1,88 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro HTML</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <div>
+        <header>
+        <h1>Site Itnã</h1>
+        <img src="./Imagem/it.jpg" alt="Minha foto" style="width:250px;height:250px;">
+        <nav>
+         <ul>
+            <li><a href="https://www.w3schools.com/html/" target="_blank">Comandos HTML - W3 Schools</a></li>
+            <li><a href="            https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default
+                " target="_blank">Testando codigo HTML</a></li>
+           <li><a href="https://ebaconline.com.br/" target="_blank">Ebac</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+            <li><a href="https://github.com/itnanunes/" target="_blank">Meu Git</a></li>
+
+            <li><a href="https://s2.glbimg.com/XXyUS8bhJ8CfSLADLpTOxFWfIhw=/e.glbimg.com/og/ed/f/original/2016/03/28/tatuagem.jpg" target="_blank">Blackout</a></li>
+         </ul>
+        </nav>
+        </header>
+
+    </div>
+
+<div>
+<form action="">
+    <label for="nome"> Digite Seu nome</label>
+    <input type="text" name="nome" id="nome">
+    <label for="email">Digite seu e-mail</label>
+    <input type="email" name="email" id="email">
+    <input type="submit" value="Enviar">
+</form>
+
+</div>
+
+
+</body>
+</html>
+
+<title>Data e Hora Atuais</title>
+<script>
+function atualizarDataHora() {
+    var agora = new Date();
+    
+    var dia = agora.getDate();
+    var mes = agora.getMonth() + 1; // Os meses são indexados a partir de zero
+    var ano = agora.getFullYear();
+    
+    var hora = agora.getHours();
+    var minuto = agora.getMinutes();
+    var segundo = agora.getSeconds();
+    
+    // Formatação para garantir que sempre haja dois dígitos
+    if (dia < 10) {
+        dia = '0' + dia;
+    }
+    if (mes < 10) {
+        mes = '0' + mes;
+    }
+    if (hora < 10) {
+        hora = '0' + hora;
+    }
+    if (minuto < 10) {
+        minuto = '0' + minuto;
+    }
+    if (segundo < 10) {
+        segundo = '0' + segundo;
+    }
+    
+    var dataHoraFormatada = dia + '/' + mes + '/' + ano + ' ' + hora + ':' + minuto + ':' + segundo;
+    
+    document.getElementById('data-hora').innerText = dataHoraFormatada;
+}
+
+// Atualiza a cada segundo
+setInterval(atualizarDataHora, 1000);
+</script>
+</head>
+<body>
+<h1>Data e Hora Atuais</h1>
+<p id="data-hora"></p>
+</body>
+</html>
