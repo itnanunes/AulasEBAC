@@ -1,0 +1,12 @@
+Dados do aluno
+
+-Primeiro Nome: Itnã
+-Profissão: Engenheira de Qualidade de Software
+-Cidade: SalvadoR/BA
+-O que faz nas horas vaga: Gosto de assitir Série
+-Feedback sobre o curso Qualidade de Software: Otimo, estou aprendendo muito!
+-Feedback sobre a plataforma de estudo da EBAC: Otimo!
+
+Obrigado!!!
+
+
